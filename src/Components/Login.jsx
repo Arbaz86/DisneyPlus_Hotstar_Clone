@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 export const Login = () => {
   return (
     <VStack overflow="hidden" textAlign="center" height="100vh">
+      {/* mid content */}
       <Flex
         direction="column"
         w="100%"
@@ -73,8 +74,8 @@ export const Login = () => {
               letterSpacing="1.5px"
             >
               Get Premier Access to Raya and the Last Dragon for an additional
-              fee with a Disney+ EN subscription. As of 03/26/21, the price of
-              Disney+ and The Disney Bundle will increase by $1.
+              fee with a Disney+Hotstar subscription. As of 03/26/23, the price
+              of Disney+Hotstar and The Disney Bundle will increase by $1.
             </Text>
             <Image
               src="images/cta-logo-two.png"
