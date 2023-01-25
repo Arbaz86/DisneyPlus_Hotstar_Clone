@@ -2,7 +2,7 @@ import { getLocalData, saveLocalData } from "../../Utils/localStorage";
 import * as types from "./actionTypes";
 
 const initState = {
-  name: getLocalData("username") || "",
+  name: getLocalData("name") || "",
   email: getLocalData("email") || "",
   avatar: getLocalData("avatar") || "",
   token: getLocalData("token") || "",
@@ -12,7 +12,7 @@ const initState = {
 export const reducer = (state = initState, { type, payload }) => {
   switch (type) {
     case types.LOGIN_USER:
-      saveLocalData("username", payload.username);
+      saveLocalData("name", payload.name);
       saveLocalData("email", payload.email);
       saveLocalData("avatar", payload.avatar);
       saveLocalData("token", payload.token);
