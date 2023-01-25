@@ -17,11 +17,21 @@ import { NavMenu } from "./NavMenu";
 import { inHamIcon } from "../Utils/NavData";
 import { useMediaQuery } from "@chakra-ui/react";
 import { AiOutlineSearch } from "react-icons/ai";
+import { auth, provider } from "../Firebase";
+import { signInWithPopup } from "firebase/auth";
 
 export const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [isSmallerThan1100] = useMediaQuery("(max-width: 1100px)");
   const [isSmallerThan530] = useMediaQuery("(max-width: 530px)");
+
+  const handleAuth = () => {
+    signInWithPopup(auth, provider)
+      .then((res) => {
+        console.log(res);
+      })
+      .catch((err) => console.log(err.message));
+  };
 
   return (
     <Flex
@@ -134,6 +144,7 @@ export const Navbar = () => {
           color="#ffffffcc"
           _hover={false}
           _active={false}
+          onClick={handleAuth}
         >
           LOGIN
         </Button>
