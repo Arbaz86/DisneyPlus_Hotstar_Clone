@@ -17,20 +17,18 @@ import { NavMenu } from "./NavMenu";
 import { inHamIcon } from "../Utils/NavData";
 import { useMediaQuery } from "@chakra-ui/react";
 import { AiOutlineSearch } from "react-icons/ai";
-import { auth, provider } from "../Firebase";
-import { signInWithPopup } from "firebase/auth";
+import { useDispatch, useSelector } from "react-redux";
+import { loginUser } from "../Redux/AuthReducer/action";
 
 export const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [isSmallerThan1100] = useMediaQuery("(max-width: 1100px)");
   const [isSmallerThan530] = useMediaQuery("(max-width: 530px)");
 
+  const dispatch = useDispatch();
+
   const handleAuth = () => {
-    signInWithPopup(auth, provider)
-      .then((res) => {
-        console.log(res);
-      })
-      .catch((err) => console.log(err.message));
+    dispatch(loginUser());
   };
 
   return (
