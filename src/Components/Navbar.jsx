@@ -54,7 +54,7 @@ export const Navbar = () => {
       right="0"
       h="80px"
       p="0px 3%"
-      bg="#090b13"
+      bg="#0c111b"
       zIndex="3"
       gap="10px"
       w="100%"
