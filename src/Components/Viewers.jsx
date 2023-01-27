@@ -1,5 +1,5 @@
 import { Grid, GridItem, Image } from "@chakra-ui/react";
-import React from "react";
+import React, { useRef } from "react";
 import styled from "styled-components";
 
 let viewerData = [
@@ -32,7 +32,7 @@ let viewerData = [
 
 export const Viewers = () => {
   return (
-    <Grid templateColumns="repeat(5, 1fr)" templateRows="190px" gap={6}>
+    <Grid templateColumns="repeat(5, 1fr)" gap={6}>
       {viewerData.map((el) => (
         <GridItem
           kay={el.name}
@@ -40,18 +40,31 @@ export const Viewers = () => {
           style={gridItemStyles}
           _hover={{ transform: "scale(1.12)" }}
         >
-          <Image top="0" src={el.imgUrl} alt={el.name} style={imgStyles} />
-          <video
+          <Image
+            top="0"
+            src={el.imgUrl}
+            alt={el.name}
+            style={imgStyles}
+            bg="#192133"
+            _hover={{ bg: "transparent" }}
+          />
+          <Video
             autoPlay={true}
             loop={true}
             playsInline={true}
             src={el.videoSrc}
+            display="block"
           />
         </GridItem>
       ))}
     </Grid>
   );
 };
+
+let Video = styled.video`
+  height: 99%;
+  width: 99%;
+`;
 
 let gridItemStyles = {
   borderRadius: "5px",
