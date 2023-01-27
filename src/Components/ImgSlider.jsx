@@ -15,7 +15,6 @@ let imgData = [
 
 export const ImgSlider = () => {
   const settings = {
-    dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -28,9 +27,9 @@ export const ImgSlider = () => {
   return (
     <Carousel {...settings}>
       {imgData.map((el) => (
-        <Box key={el.imgUrl} p="10px" rounded="40px">
+        <Box key={el.imgUrl} p="10px" pos="relative">
           <Link to={el.link}>
-            <Image h="55vh" w="100%" rounded="8px" src={el.imgUrl} alt="img" />
+            <Image h="100%" w="100%" rounded="8px" src={el.imgUrl} alt="img" />
           </Link>
         </Box>
       ))}

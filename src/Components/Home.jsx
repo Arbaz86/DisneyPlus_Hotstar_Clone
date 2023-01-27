@@ -1,6 +1,7 @@
 import { Box } from "@chakra-ui/react";
 import React from "react";
 import { ImgSlider } from "./ImgSlider";
+import { Viewers } from "./Viewers";
 
 export const Home = () => {
   return (
@@ -20,7 +21,12 @@ export const Home = () => {
       }}
       p="0px 3%"
     >
-      <ImgSlider />
+      <Box>
+        <ImgSlider />
+      </Box>
+      <Box>
+        <Viewers />
+      </Box>
     </Box>
   );
 };

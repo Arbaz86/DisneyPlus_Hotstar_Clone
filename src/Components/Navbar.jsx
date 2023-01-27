@@ -11,6 +11,7 @@ import {
   InputRightAddon,
   InputGroup,
   Tooltip,
+  Avatar,
 } from "@chakra-ui/react";
 import React, { useEffect } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
@@ -155,13 +156,11 @@ export const Navbar = () => {
         </Button>
         {isAuth ? (
           <Tooltip hasArrow label="LOGOUT" bg="red.600">
-            <Image
-              borderRadius="full"
-              boxSize={isSmallerThan530 ? "35px" : "45px"}
+            <Avatar
               src={avatar}
-              alt="avatar"
-              cursor="pointer"
               onClick={handleLogout}
+              cursor="pointer"
+              size={isSmallerThan530 ? "sm" : "md"}
             />
           </Tooltip>
         ) : (
