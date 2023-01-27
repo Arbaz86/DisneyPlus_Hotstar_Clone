@@ -6,6 +6,7 @@ export const AllRoutes = () => {
   return (
     <Routes>
       <Route path="/" element={<Login />} />
+      <Route path="/disneyplus" element={<Login />} />
     </Routes>
   );
 };

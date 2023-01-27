@@ -17,9 +17,23 @@ export const reducer = (state = initState, { type, payload }) => {
       saveLocalData("avatar", payload.avatar);
       saveLocalData("token", payload.token);
       return {
+        ...state,
         name: payload.name,
         email: payload.email,
         avatar: payload.avatar,
+        token: payload.token,
+        isAuth: true,
+      };
+
+    case types.LOGOUT_USER:
+      localStorage.clear();
+      return {
+        ...state,
+        name: "",
+        email: "",
+        avatar: "",
+        isAuth: false,
+        token: "",
       };
 
     default:

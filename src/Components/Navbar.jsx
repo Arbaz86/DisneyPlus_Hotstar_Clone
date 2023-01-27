@@ -10,26 +10,39 @@ import {
   Input,
   InputRightAddon,
   InputGroup,
+  Tooltip,
 } from "@chakra-ui/react";
-import React from "react";
+import React, { useEffect } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { NavMenu } from "./NavMenu";
 import { inHamIcon } from "../Utils/NavData";
 import { useMediaQuery } from "@chakra-ui/react";
 import { AiOutlineSearch } from "react-icons/ai";
 import { useDispatch, useSelector } from "react-redux";
-import { loginUser } from "../Redux/AuthReducer/action";
+import { loginUser, logoutUser } from "../Redux/AuthReducer/action";
+import { useNavigate } from "react-router-dom";
 
 export const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [isSmallerThan1100] = useMediaQuery("(max-width: 1100px)");
   const [isSmallerThan530] = useMediaQuery("(max-width: 530px)");
 
+  const navigate = useNavigate();
   const dispatch = useDispatch();
+  const { avatar, isAuth } = useSelector((store) => store.AuthReducer);
 
   const handleAuth = () => {
     dispatch(loginUser());
   };
+
+  const handleLogout = () => {
+    dispatch(logoutUser());
+  };
+
+  useEffect(() => {
+    if (isAuth) return navigate("/disneyplus");
+    else return navigate("/");
+  }, [isAuth]);
 
   return (
     <Flex
@@ -132,20 +145,38 @@ export const Navbar = () => {
             />
           </InputGroup>
         </Flex>
-        <Button colorScheme="blue" size="xs" fontStyle="700">
-          SUBSCRIBE
-        </Button>
         <Button
           display={isSmallerThan530 ? "none" : "inline"}
-          fontSize="18px"
-          bg="transparent"
-          color="#ffffffcc"
-          _hover={false}
-          _active={false}
-          onClick={handleAuth}
+          colorScheme="blue"
+          size="xs"
+          fontStyle="700"
         >
-          LOGIN
+          SUBSCRIBE
         </Button>
+        {isAuth ? (
+          <Tooltip hasArrow label="LOGOUT" bg="red.600">
+            <Image
+              borderRadius="full"
+              boxSize={isSmallerThan530 ? "35px" : "45px"}
+              src={avatar}
+              alt="avatar"
+              cursor="pointer"
+              onClick={handleLogout}
+            />
+          </Tooltip>
+        ) : (
+          <Button
+            size={isSmallerThan530 ? "xs" : "md"}
+            fontSize={isSmallerThan530 ? "14px" : "18px"}
+            bg="transparent"
+            color="#ffffffcc"
+            _hover={false}
+            _active={false}
+            onClick={handleAuth}
+          >
+            LOGIN
+          </Button>
+        )}
       </Flex>
     </Flex>
   );

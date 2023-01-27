@@ -18,3 +18,7 @@ export const loginUser = () => (dispatch) => {
     })
     .catch((err) => console.log(err.message));
 };
+
+export const logoutUser = () => (dispatch) => {
+  return dispatch({ type: types.LOGOUT_USER });
+};
