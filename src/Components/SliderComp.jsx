@@ -11,15 +11,56 @@ export const SliderComp = (props) => {
     infinite: false,
     speed: 500,
     slidesToShow: props.slideToShow,
-    slidesToScroll: 1,
+    slidesToScroll: props.slideToShow,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: props.slideToShow - 2,
+          slidesToScroll: props.slideToShow - 2,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: props.slideToShow - 3,
+          slidesToScroll: props.slideToShow - 3,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: props.slideToShow - 4,
+          slidesToScroll: props.slideToShow - 4,
+        },
+      },
+    ],
   };
 
   return (
     <Carousel {...settings}>
       {props.sliderData.map((el) => (
-        <Box key={el.imgUrl} p="10px" pos="relative">
+        <Box
+          key={el.imgUrl}
+          p="5px"
+          pos="relative"
+          _hover={{
+            transform: "scale(1.25)",
+            transition: "all 0.3s linear",
+            zIndex: 1,
+          }}
+        >
           <Link to={el.link}>
-            <Image h="100%" w="100%" rounded="8px" src={el.imgUrl} alt="img" />
+            <Image
+              loading="lazy"
+              h="100%"
+              w="100%"
+              rounded="8px"
+              src={el.imgUrl}
+              alt="img"
+            />
           </Link>
         </Box>
       ))}

@@ -1,7 +1,7 @@
 import { Box } from "@chakra-ui/react";
 import React from "react";
 import { ImgSlider } from "./ImgSlider";
-import { Recommends } from "./Recommends";
+import { Sliders } from "./Sliders";
 import { Viewers } from "./Viewers";
 
 export const Home = () => {
@@ -29,7 +29,7 @@ export const Home = () => {
         <Viewers />
       </Box>
       <Box>
-        <Recommends />
+        <Sliders />
       </Box>
     </Box>
   );
