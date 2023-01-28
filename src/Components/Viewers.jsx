@@ -1,4 +1,4 @@
-import { Grid, GridItem, Image } from "@chakra-ui/react";
+import { Grid, GridItem, Image, useMediaQuery } from "@chakra-ui/react";
 import React, { useRef } from "react";
 import styled from "styled-components";
 
@@ -31,8 +31,13 @@ let viewerData = [
 ];
 
 export const Viewers = () => {
+  const [isSmallerThan769] = useMediaQuery("(max-width: 769px)");
   return (
-    <Grid templateColumns="repeat(5, 1fr)" gap={6} mt="15px">
+    <Grid
+      templateColumns="repeat(5, 1fr)"
+      gap={isSmallerThan769 ? 2 : 6}
+      mt="15px"
+    >
       {viewerData.map((el, i) => (
         <GridItem
           kay={el.name + i}

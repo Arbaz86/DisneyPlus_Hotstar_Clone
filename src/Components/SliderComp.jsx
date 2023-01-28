@@ -43,12 +43,12 @@ export const SliderComp = (props) => {
     <Carousel {...settings}>
       {props.sliderData.map((el) => (
         <Box
-          key={el.imgUrl}
+          key={el.cardImg}
           p="5px"
           pos="relative"
+          transition="all 0.3s ease"
           _hover={{
             transform: "scale(1.25)",
-            transition: "all 0.3s linear",
             zIndex: 1,
           }}
         >
@@ -58,7 +58,7 @@ export const SliderComp = (props) => {
               h="100%"
               w="100%"
               rounded="8px"
-              src={el.imgUrl}
+              src={el.cardImg}
               alt="img"
             />
           </Link>
