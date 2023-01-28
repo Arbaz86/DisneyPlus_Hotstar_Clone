@@ -7,10 +7,12 @@ import { Box, Image } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 
 let imgData = [
-  { imgUrl: "/images/slider-badging.jpg", link: "" },
-  { imgUrl: "/images/slider-scale.jpg", link: "" },
-  { imgUrl: "/images/slider-badag.jpg", link: "" },
-  { imgUrl: "/images/slider-scales.jpg", link: "" },
+  { imgUrl: "/images/slider-spider-man.jpg", link: "" },
+  { imgUrl: "/images/slider-tokyo-revengers.jpg", link: "" },
+  { imgUrl: "/images/slider-moon-night.jpg", link: "" },
+  { imgUrl: "/images/slider-black-panther.jpg", link: "" },
+  { imgUrl: "/images/slider-avatar.jpg", link: "" },
+  { imgUrl: "/images/slider-falcon-winter.jpg", link: "" },
 ];
 
 export const ImgSlider = () => {
