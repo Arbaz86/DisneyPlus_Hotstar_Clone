@@ -32,11 +32,11 @@ let viewerData = [
 
 export const Viewers = () => {
   return (
-    <Grid templateColumns="repeat(5, 1fr)" gap={6}>
-      {viewerData.map((el) => (
+    <Grid templateColumns="repeat(5, 1fr)" gap={6} mt="15px">
+      {viewerData.map((el, i) => (
         <GridItem
-          kay={el.name}
-          bg="#192133"
+          kay={el.name + i}
+          bg="#1a1c27"
           style={gridItemStyles}
           _hover={{ transform: "scale(1.12)" }}
         >
@@ -45,7 +45,7 @@ export const Viewers = () => {
             src={el.imgUrl}
             alt={el.name}
             style={imgStyles}
-            bg="#192133"
+            bg="#1a1c27"
             _hover={{ bg: "transparent" }}
           />
           <Video
@@ -63,7 +63,7 @@ export const Viewers = () => {
 
 let Video = styled.video`
   height: 99%;
-  width: 99%;
+  width: 100%;
 `;
 
 let gridItemStyles = {
