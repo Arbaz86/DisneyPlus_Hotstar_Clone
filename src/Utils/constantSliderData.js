@@ -6,7 +6,7 @@ export const recommendedSliderData = [
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/8317/1328317-v-56412010beba",
     title: "Thor: Love and Thunder",
-    subTitle: "",
+    subTitle: "Action - English - 2022U/A 13+",
     description:
       "The God of Thunder teams up with King Valkyrie, Korg and ex-girlfriend-turned-Mighty-Thor Jane Foster to take on a galactic killer known as Gorr the God Butcher.",
     type: "recommended",
@@ -17,150 +17,179 @@ export const recommendedSliderData = [
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/5451/1455451-h-c7f3a04d4d7b",
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/5457/1455457-v-64cc7681c13d",
-    title: "",
-    subTitle: "",
-    description: "",
+    title: "Jhanda Uncha Rahe Humara : The Tricolor",
+    subTitle: "Documentary - English - 2022 U",
+    description:
+      "The film pays homage to our nation through the history, stories and emotions that the Tricolor evokes.",
     type: "recommended",
   },
   {
     id: "2S8F1L5H9J",
-    backgroundImg: "",
+    backgroundImg:
+      "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/8687/1078687-h-029e9d313239",
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/8690/1078690-v-0cb0fd8d0f22",
-    title: "",
-    subTitle: "",
-    description: "",
+    title: "Jungle Cruise",
+    subTitle: "Action - English - 2021 - U/A 13+",
+    description:
+      "A rollicking thrill-ride down the Amazon with wisecracking skipper Frank Wolff and intrepid researcher Dr. Lily Houghton.",
     type: "recommended",
   },
 
   {
     id: "7N4C3V6B9X",
-    backgroundImg: "",
+    backgroundImg:
+      "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/4294/754294-h",
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/4293/754293-v",
-    title: "",
-    subTitle: "",
-    description: "",
+    title: "Avatar",
+    subTitle: "Science - Fiction - English - 2009U/A 13+",
+    description:
+      "Former Marine Jake Sully is deployed as an Avatar on a mission to Pandora but, he ultimately finds himself torn between two worlds.",
     type: "recommended",
   },
   {
     id: "9Q2E5D7Z8F",
-    backgroundImg: "",
+    backgroundImg:
+      "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/9939/1279939-h-3be10a34342b",
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/9948/1279948-v-cc9471178e40",
-    title: "",
-    subTitle: "",
-    description: "",
+    title: "Doctor Strange in the Multiverse of Madness",
+    subTitle: "Superhero - English - 2022U/A 13+",
+    description:
+      "When the Multiverse is unlocked, Doctor Strange must enlist help from old and new allies in order to confront a surprising adversary.",
     type: "recommended",
   },
   {
     id: "3M1J6K8L9T",
-    backgroundImg: "",
+    backgroundImg:
+      "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/4469/674469-h",
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/5162/875162-v",
-    title: "",
-    subTitle: "",
-    description: "",
+    title: "Avengers: Endgame ",
+    subTitle: "Superhero - English - 2019U/A 13+",
+    description:
+      "After the devastating events of the Infinity War, the Avengers assemble once more to reverse Thanos’ actions and restore balance to the universe.",
     type: "recommended",
   },
   {
     id: "8W5X9Z7B1D",
-    backgroundImg: "",
+    backgroundImg:
+      "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/87/1100087-h-70e9725e4a9b",
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/7519/1097519-v-7235f9a4b235",
-    title: "",
-    subTitle: "",
-    description: "",
+    title: "Eternals",
+    subTitle: "Superhero - English - 2021U/A 13+",
+    description:
+      "The saga of the Eternals, a race of immortal beings who lived on Earth and shaped its history, and civilizations",
     type: "recommended",
   },
   {
     id: "2Y6P7T9H1J",
-    backgroundImg: "",
+    backgroundImg:
+      "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/8720/1078720-h-125f68c67f48",
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/8723/1078723-v-a1a04c7474f9",
-    title: "",
-    subTitle: "",
-    description: "",
+    title: "Shang-Chi and The Legend of The Ten Rings",
+    subTitle: "Superhero - English - 2021U/A 13+",
+    description:
+      "Shang-Chi, a martial arts master, must confront the past he thought he left behind when he is drawn into the web of the mysterious Ten Rings organization.",
     type: "recommended",
   },
   {
     id: "5E9Q8Z7X1M",
-    backgroundImg: "",
+    backgroundImg:
+      "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/4372/1124372-h-04b0f9e40986",
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/1608/1161608-v-8fdb21cf9c1c",
-    title: "",
-    subTitle: "",
-    description: "",
+    title: "Turning Red",
+    subTitle: "Family -  - English -  - 2022U/A 7+",
+    description:
+      "Mei Lee, a confident, dorky 13-year-old, tries to balance friends, family, the chaos of adolescence and an uncontrollable ability to poof into a giant red panda.",
     type: "recommended",
   },
   {
     id: "3B7D6L9J8K",
-    backgroundImg: "",
+    backgroundImg:
+      "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/4416/674416-h",
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/5184/875184-v",
-    title: "",
-    subTitle: "",
-    description: "",
+    title: "Black Panther",
+    subTitle: "Superhero - English - 2018U/A 13+",
+    description:
+      "T'Challa, heir to the hidden kingdom of Wakanda, must lead his people into a new future and confront a challenger from his country's past.",
     type: "recommended",
   },
   {
     id: "4P7R5M9S1N",
-    backgroundImg: "",
+    backgroundImg:
+      "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/4600/674600-h",
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/5242/875242-v",
-    title: "",
-    subTitle: "",
-    description: "",
+    title: "The Lion King",
+    subTitle: "Fantasy - English - 2019U/A 7+",
+    description:
+      "In the African savanna, a young prince overcomes betrayal and tragedy to assume his rightful place on Pride Rock.",
     type: "recommended",
   },
   {
     id: "6X9W8B7Z1D",
-    backgroundImg: "",
+    backgroundImg:
+      "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/5615/675615-h",
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/5171/875171-v",
-    title: "",
-    subTitle: "",
-    description: "",
+    title: "Avengers: Infinity War",
+    subTitle: "Superhero - English - 2018U/A 13+",
+    description:
+      "With the powerful Thanos on the verge of raining destruction upon the universe, the Avengers will have to risk everything to stop him.",
     type: "recommended",
   },
   {
     id: "2F8L5H9J7S",
-    backgroundImg: "",
+    backgroundImg:
+      "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/9296/1429296-h-bb2d997a6467",
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/9297/1429297-v-12e287b535ec",
-    title: "",
-    subTitle: "",
-    description: "",
+    title: "National Treasure: Edge of History",
+    subTitle: "Action - English - DisneyU/A 13+",
+    description:
+      "After meeting a stranger, Jess learns the father she never knew may have been a treasure hunter.",
     type: "recommended",
   },
   {
     id: "7C3V6B9X1N",
-    backgroundImg: "",
+    backgroundImg:
+      "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/4298/674298-h",
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/5219/875219-v",
-    title: "",
-    subTitle: "",
-    description: "",
+    title: "Marvel's The Avengers",
+    subTitle: "Superhero - English - 2012U/A 13+",
+    description:
+      "Nick Fury finds himself in need of a team to pull the world back from the brink of disaster by launching the Avengers initiative.",
     type: "recommended",
   },
   {
     id: "9E5D7Z8F1Q",
-    backgroundImg: "",
+    backgroundImg:
+      "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/4311/674311-h",
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/5236/875236-v",
-    title: "",
-    subTitle: "",
-    description: "",
+    title: "Pirates of the Caribbean - Salazar's Revenge",
+    subTitle: "Action - English - 2017U/A 13+",
+    description:
+      "Captain Jack Sparrow senses the winds of ill-fortune when his nemesis Captain Salazar escapes from the Devil's Triangle, to kill every pirate at sea including him.",
     type: "recommended",
   },
   {
     id: "3J6K8L9T1M",
-    backgroundImg: "",
+    backgroundImg:
+      "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/2149/752149-h",
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/2653/742653-v",
-    title: "",
-    subTitle: "",
-    description: "",
+    title: "Desert Lions",
+    subTitle: "Animals & Nature - English - 2018U/A 7+",
+    description:
+      "Two male lions have reigned the deserts of Nxai Pan for over a decade. Can these desert kings dominate another dry season, or will this be their last?",
     type: "recommended",
   },
 ];
