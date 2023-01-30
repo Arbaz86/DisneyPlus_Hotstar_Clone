@@ -9,6 +9,7 @@ export const recommendedSliderData = [
     subTitle: "",
     description:
       "The God of Thunder teams up with King Valkyrie, Korg and ex-girlfriend-turned-Mighty-Thor Jane Foster to take on a galactic killer known as Gorr the God Butcher.",
+    type: "recommended",
   },
   {
     id: "6WX9M4P7R5",
@@ -19,6 +20,7 @@ export const recommendedSliderData = [
     title: "",
     subTitle: "",
     description: "",
+    type: "recommended",
   },
   {
     id: "2S8F1L5H9J",
@@ -28,6 +30,7 @@ export const recommendedSliderData = [
     title: "",
     subTitle: "",
     description: "",
+    type: "recommended",
   },
 
   {
@@ -38,6 +41,7 @@ export const recommendedSliderData = [
     title: "",
     subTitle: "",
     description: "",
+    type: "recommended",
   },
   {
     id: "9Q2E5D7Z8F",
@@ -47,6 +51,7 @@ export const recommendedSliderData = [
     title: "",
     subTitle: "",
     description: "",
+    type: "recommended",
   },
   {
     id: "3M1J6K8L9T",
@@ -56,6 +61,7 @@ export const recommendedSliderData = [
     title: "",
     subTitle: "",
     description: "",
+    type: "recommended",
   },
   {
     id: "8W5X9Z7B1D",
@@ -65,6 +71,7 @@ export const recommendedSliderData = [
     title: "",
     subTitle: "",
     description: "",
+    type: "recommended",
   },
   {
     id: "2Y6P7T9H1J",
@@ -74,6 +81,7 @@ export const recommendedSliderData = [
     title: "",
     subTitle: "",
     description: "",
+    type: "recommended",
   },
   {
     id: "5E9Q8Z7X1M",
@@ -83,6 +91,7 @@ export const recommendedSliderData = [
     title: "",
     subTitle: "",
     description: "",
+    type: "recommended",
   },
   {
     id: "3B7D6L9J8K",
@@ -92,6 +101,7 @@ export const recommendedSliderData = [
     title: "",
     subTitle: "",
     description: "",
+    type: "recommended",
   },
   {
     id: "4P7R5M9S1N",
@@ -101,6 +111,7 @@ export const recommendedSliderData = [
     title: "",
     subTitle: "",
     description: "",
+    type: "recommended",
   },
   {
     id: "6X9W8B7Z1D",
@@ -110,6 +121,7 @@ export const recommendedSliderData = [
     title: "",
     subTitle: "",
     description: "",
+    type: "recommended",
   },
   {
     id: "2F8L5H9J7S",
@@ -119,6 +131,7 @@ export const recommendedSliderData = [
     title: "",
     subTitle: "",
     description: "",
+    type: "recommended",
   },
   {
     id: "7C3V6B9X1N",
@@ -128,6 +141,7 @@ export const recommendedSliderData = [
     title: "",
     subTitle: "",
     description: "",
+    type: "recommended",
   },
   {
     id: "9E5D7Z8F1Q",
@@ -137,6 +151,7 @@ export const recommendedSliderData = [
     title: "",
     subTitle: "",
     description: "",
+    type: "recommended",
   },
   {
     id: "3J6K8L9T1M",
@@ -146,6 +161,7 @@ export const recommendedSliderData = [
     title: "",
     subTitle: "",
     description: "",
+    type: "recommended",
   },
 ];
 

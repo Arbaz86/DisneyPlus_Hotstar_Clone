@@ -35,7 +35,7 @@ export const Viewers = () => {
   return (
     <Grid
       templateColumns="repeat(5, 1fr)"
-      gap={isSmallerThan769 ? 2 : 6}
+      gap={isSmallerThan769 ? 1 : 6}
       mt="15px"
     >
       {viewerData.map((el, i) => (
@@ -69,6 +69,7 @@ export const Viewers = () => {
 let Video = styled.video`
   height: 99%;
   width: 100%;
+  border-radius: 6px;
 `;
 
 let gridItemStyles = {
@@ -80,6 +81,7 @@ let gridItemStyles = {
 };
 
 let imgStyles = {
+  borderRadius: "5px",
   position: "absolute",
   top: "0",
   opacity: 1,

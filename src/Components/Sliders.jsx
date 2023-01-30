@@ -1,4 +1,4 @@
-import { Box, Heading } from "@chakra-ui/react";
+import { Box, Heading, useMediaQuery } from "@chakra-ui/react";
 import React from "react";
 import { SliderComp } from "./SliderComp";
 import {
@@ -10,13 +10,15 @@ import {
 } from "../Utils/constantSliderData";
 
 export const Sliders = () => {
+  const [isSmallerThan570] = useMediaQuery("(max-width: 570px)");
+
   return (
     <Box>
       {/*Recommended  slider  */}
       <Box>
-        <Box m="40px 0px 20px">
+        <Box mt={isSmallerThan570 ? "20px" : "40px"} mb="20px">
           <Heading
-            fontSize="1.5vw"
+            fontSize={isSmallerThan570 ? "11px" : "1.5vw"}
             _hover={{ color: "#1f80e0", cursor: "pointer" }}
             display="inline-block"
           >
@@ -31,9 +33,9 @@ export const Sliders = () => {
 
       {/*Disney+ Origin slider  */}
       <Box>
-        <Box m="40px 0px 20px">
+        <Box mt={isSmallerThan570 ? "20px" : "40px"} mb="20px">
           <Heading
-            fontSize="1.5vw"
+            fontSize={isSmallerThan570 ? "11px" : "1.5vw"}
             _hover={{ color: "#1f80e0", cursor: "pointer" }}
             display="inline-block"
           >
@@ -48,9 +50,9 @@ export const Sliders = () => {
 
       {/*  Twist in the Tale slider */}
       <Box>
-        <Box m="40px 0px 20px">
+        <Box mt={isSmallerThan570 ? "20px" : "40px"} mb="20px">
           <Heading
-            fontSize="1.5vw"
+            fontSize={isSmallerThan570 ? "11px" : "1.5vw"}
             _hover={{ color: "#1f80e0", cursor: "pointer" }}
             display="inline-block"
           >
@@ -65,9 +67,9 @@ export const Sliders = () => {
 
       {/* Animated Adventures slider */}
       <Box>
-        <Box m="40px 0px 20px">
+        <Box mt={isSmallerThan570 ? "20px" : "40px"} mb="20px">
           <Heading
-            fontSize="1.5vw"
+            fontSize={isSmallerThan570 ? "11px" : "1.5vw"}
             _hover={{ color: "#1f80e0", cursor: "pointer" }}
             display="inline-block"
           >
@@ -81,9 +83,9 @@ export const Sliders = () => {
       </Box>
       {/* Latest on Disney+ slider */}
       <Box>
-        <Box m="40px 0px 20px">
+        <Box mt={isSmallerThan570 ? "20px" : "40px"} mb="20px">
           <Heading
-            fontSize="1.5vw"
+            fontSize={isSmallerThan570 ? "11px" : "1.5vw"}
             _hover={{ color: "#1f80e0", cursor: "pointer" }}
             display="inline-block"
           >

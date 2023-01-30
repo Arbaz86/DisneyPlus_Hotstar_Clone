@@ -3,7 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import styled from "styled-components";
-import { Box, Image } from "@chakra-ui/react";
+import { Box, Image, useMediaQuery } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 
 let imgData = [
@@ -16,6 +16,8 @@ let imgData = [
 ];
 
 export const ImgSlider = () => {
+  const [isSmallerThan570] = useMediaQuery("(max-width: 570px)");
+
   const settings = {
     infinite: true,
     speed: 500,
@@ -31,7 +33,13 @@ export const ImgSlider = () => {
       {imgData.map((el) => (
         <Box key={el.imgUrl} p="10px" pos="relative">
           <Link to={el.link}>
-            <Image h="100%" w="100%" rounded="8px" src={el.imgUrl} alt="img" />
+            <Image
+              h={isSmallerThan570 ? "150px" : "100%"}
+              w="100%"
+              rounded="8px"
+              src={el.imgUrl}
+              alt="img"
+            />
           </Link>
         </Box>
       ))}
