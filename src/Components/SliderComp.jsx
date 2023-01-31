@@ -4,9 +4,12 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import styled from "styled-components";
 import { Box, Image } from "@chakra-ui/react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { saveLocalData } from "../Utils/localStorage";
 
 export const SliderComp = (props) => {
+  const navigate = useNavigate();
+
   const settings = {
     infinite: false,
     speed: 500,
@@ -39,11 +42,17 @@ export const SliderComp = (props) => {
     ],
   };
 
+  const handleClick = (el) => {
+    saveLocalData("singleMovieData", { ...el });
+
+    navigate(`/disneyplus/watch/${el.id}`);
+  };
+
   return (
     <Carousel {...settings}>
       {props.sliderData.map((el) => (
         <Box
-          key={el.cardImg}
+          key={el.id}
           p="5px"
           pos="relative"
           transition="all 0.3s ease"
@@ -51,17 +60,16 @@ export const SliderComp = (props) => {
             transform: "scale(1.25)",
             zIndex: 1,
           }}
+          onClick={() => handleClick(el)}
         >
-          <Link to={el.link}>
-            <Image
-              loading="lazy"
-              h="100%"
-              w="100%"
-              rounded="8px"
-              src={el.cardImg}
-              alt="img"
-            />
-          </Link>
+          <Image
+            loading="lazy"
+            h="100%"
+            w="100%"
+            rounded="8px"
+            src={el.cardImg}
+            alt="img"
+          />
         </Box>
       ))}
     </Carousel>

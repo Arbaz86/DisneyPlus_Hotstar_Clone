@@ -1,6 +1,8 @@
 import * as types from "./actionTypes";
 
-const initState = {};
+const initState = {
+  movieData: [],
+};
 
 export const reducer = (state = initState, { type, payload }) => {
   switch (type) {

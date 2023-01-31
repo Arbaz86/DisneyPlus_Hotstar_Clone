@@ -40,7 +40,7 @@ export const Viewers = () => {
     >
       {viewerData.map((el, i) => (
         <GridItem
-          kay={el.name + i}
+          key={el.name}
           bg="#1a1c27"
           style={gridItemStyles}
           _hover={{ transform: "scale(1.12)" }}
