@@ -66,7 +66,7 @@ export const recommendedSliderData = [
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/4469/674469-h",
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/5162/875162-v",
-    title: "Avengers: Endgame ",
+    title: "Avengers: Endgame",
     subTitle: "Superhero - English - 2019U/A 13+",
     description:
       "After the devastating events of the Infinity War, the Avengers assemble once more to reverse Thanos’ actions and restore balance to the universe.",
@@ -103,7 +103,7 @@ export const recommendedSliderData = [
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/1608/1161608-v-8fdb21cf9c1c",
     title: "Turning Red",
-    subTitle: "Family -  - English -  - 2022U/A 7+",
+    subTitle: "Family - English - 2022U/A 7+",
     description:
       "Mei Lee, a confident, dorky 13-year-old, tries to balance friends, family, the chaos of adolescence and an uncontrollable ability to poof into a giant red panda.",
     type: "recommended",
@@ -197,201 +197,266 @@ export const recommendedSliderData = [
 export const disneyOrigin = [
   {
     id: "8B5X9Z7D1J",
-    backgroundImg: "",
+    backgroundImg:
+      "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/3981/1453981-h-aa68f1485ce6",
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/3984/1453984-v-eea982534dbf",
-    title: "",
-    subTitle: "",
-    description: "",
+    title: "Willow: Behind the Magic",
+    subTitle: "Documentary - English - 2023U/A 13+",
+    description:
+      "Go inside the new series from Lucasfilm, and hear from its breakout stars and returning legends.",
+    type: "originals",
   },
   {
     id: "2T9H1P7Y6",
-    backgroundImg: "",
+    backgroundImg:
+      "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/9296/1429296-h-bb2d997a6467",
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/9297/1429297-v-12e287b535ec",
-    title: "",
-    subTitle: "",
-    description: "",
+    title: "National Treasure: Edge of History",
+    subTitle: "Action - English - DisneyU/A 13+",
+    description:
+      "After meeting a stranger, Jess learns the father she never knew may have been a treasure hunter.",
+    type: "originals",
   },
   {
     id: "5Q8Z7X9E1D",
-    backgroundImg: "",
+    backgroundImg:
+      "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/4337/1444337-h-50a235a43ec7",
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/4341/1444341-v-2a4805480cb5",
-    title: "",
-    subTitle: "",
-    description: "",
+    title: "Chasing Waves",
+    subTitle: "Documentary - English - DisneyU/A 13+",
+    description:
+      "A new generation of surfers compete to represent Japan at the 2020 Tokyo Olympics.",
+    type: "originals",
   },
   {
     id: "3D7L9J8B1K",
-    backgroundImg: "",
+    backgroundImg:
+      "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/6461/1436461-h-2e294e2a2646",
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/6462/1436462-v-e688776a6e16",
-    title: "",
-    subTitle: "",
-    description: "",
+    title: "Encanto at the Hollywood Bowl",
+    subTitle: "Concert Film - English - 2022U/A 7+",
+    description:
+      "The cast of 'Encanto' reunites for this concert experience celebrating the global phenomenon.",
+    type: "originals",
   },
   {
     id: "4R5M9S1P7N",
-    backgroundImg: "",
+    backgroundImg:
+      "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/4395/1444395-h-d2dca9e325ea",
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/4396/1444396-v-a381e9f2895e",
-    title: "",
-    subTitle: "",
-    description: "",
+    title: "The Bad Batch",
+    subTitle: "Action - English - Star WarsU/A 7+",
+    description:
+      "The clones of The Bad Batch find themselves in a changing galaxy after The Clone Wars.",
+    type: "originals",
   },
   {
     id: "6W8B7Z9X1D",
-    backgroundImg: "",
+    backgroundImg:
+      "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/9156/1429156-h-e34ee82e0461",
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/9157/1429157-v-c0a5806446c1",
-    title: "",
-    subTitle: "",
-    description: "",
+    title: "Night at the Museum: Kahmunrah Rises Again",
+    subTitle: "Adventure - English - 2022U/A 7+",
+    description:
+      "Nick Daley is the new night watchman at the American Museum of Natural History. When the maniacal ruler Kahmunrah escapes, it is up to Nick to save the museum once.",
+    type: "originals",
   },
   {
     id: "2H9J7S8F1L",
-    backgroundImg: "",
+    backgroundImg:
+      "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/9386/1429386-h-02687f86bf1e",
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/6281/1426281-v-6566f5dae91c",
-    title: "",
-    subTitle: "",
-    description: "",
+    title: "Weekend Family Christmas Special",
+    subTitle: "Comedy - French - 2022U/A 13+",
+    description:
+      "It’s Christmas, Fred’s favourite holiday! But he and Emma have very different ways of celebrating.",
+    type: "originals",
   },
   {
     id: "7V6B9X1C3N",
-    backgroundImg: "",
+    backgroundImg:
+      "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/1652/1431652-h-bac6435bf140",
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/1653/1431653-v-f6c5b91a3235",
-    title: "",
-    subTitle: "",
-    description: "",
+    title: "Le Pupille",
+    subTitle: "Drama - Italian - 2022U/A 7+",
+    description:
+      "A story of innocence, greed, and fantasy around a Christmas cake in a Catholic college for girls.",
+    type: "originals",
   },
   {
     id: "9D7Z8F1E5Q",
-    backgroundImg: "",
+    backgroundImg:
+      "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/3851/1423851-h-286df3c0ee36",
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/9398/1419398-v-768e1beed336",
-    title: "",
-    subTitle: "",
-    description: "",
+    title: "Willow",
+    subTitle: "Fantasy - English - DisneyU/A 16+",
+    description:
+      "Tir Asleen receives an important delegation from Galladoorn, but a sudden attack by the mysterious Gales prompts Queen Sorsha to seek help from an old friend.",
+    type: "originals",
   },
   {
     id: "3K8L9T1J6M",
-    backgroundImg: "",
+    backgroundImg:
+      "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/3154/1423154-h-141b7bd0eda2",
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/3155/1423155-v-7635d4ee9b80",
-    title: "",
-    subTitle: "",
-    description: "",
+    title: "Pentatonix: Around the World for the Holidays",
+    subTitle: "Concert Film - English - 2022U/A 7+",
+    description:
+      "Pentatonix finds inspiration for their holiday album from fans around the world.",
+    type: "originals",
   },
   {
     id: "8X9Z7D1B5J",
-    backgroundImg: "",
+    backgroundImg:
+      "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/2260/1422260-h-7b0fef515fe4",
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/2261/1422261-v-0e77e925ce97",
-    title: "",
-    subTitle: "",
-    description: "",
+    title: "The Guardians of the Galaxy Holiday Special",
+    subTitle: "Action - English - 2022U/A 13+",
+    description:
+      "On a mission to make Christmas unforgettable for Quill, the Guardians head to Earth in search of the perfect present.",
+    type: "originals",
   },
   {
     id: "2P7Y6T9H1",
-    backgroundImg: "",
+    backgroundImg:
+      "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/3412/1413412-h-fb3b4bd6f341",
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/3414/1413414-v-cdd2518d6ab1",
-    title: "",
-    subTitle: "",
-    description: "",
+    title: "Disenchanted",
+    subTitle: "Family - English - 2022U/A 7+",
+    description:
+      "It's been fifteen years since Giselle and Robert wed, and a frustrated Giselle turns to the magic of Andalasia in hopes of finding her happily ever after.",
+    type: "originals",
   },
   {
     id: "5E1D8Z7X9Q",
-    backgroundImg: "",
+    backgroundImg:
+      "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/3046/1413046-h-6a3885f2307d",
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/3047/1413047-v-c1ad3dd8ea81",
-    title: "",
-    subTitle: "",
-    description: "",
+    title: "The Wonderful Autumn of Mickey Mouse",
+    subTitle: "Kids - English - 2022U/A 7+",
+    description:
+      "Mickey Mouse is determined to undo the failures of his family's past after inheriting a rundown pumpkin farm from a distant relative",
+    type: "originals",
   },
   {
     id: "3B1K7L9J8D",
-    backgroundImg: "",
+    backgroundImg:
+      "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/2973/1412973-h-3d84aa7b2a2a",
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/2974/1412974-v-6b0c211e8292",
-    title: "",
-    subTitle: "",
-    description: "",
+    title: "Mickey: The Story of a Mouse",
+    subTitle: "Documentary - English - 2022U/A 7+",
+    description:
+      "A look at Mickey's evolution into different versions that reflect his creator and society's changes.",
+    type: "originals",
   },
   {
     id: "4M1P7N9S5R",
-    backgroundImg: "",
+    backgroundImg:
+      "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/8474/1408474-h-ba1221a75ebd",
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/8475/1408475-v-6e786e852f71",
-    title: "",
-    subTitle: "",
-    description: "",
+    title: "Limitless with Chris Hemsworth",
+    subTitle: "Documentary - English - Nat GeoU/A 13+",
+    description:
+      "Before attempting the ultimate stress test, Chris learns how to tame his unruly stress response by training with soldiers and firefighters.",
+    type: "originals",
   },
   {
     id: "6B1D9X7Z8W",
-    backgroundImg: "",
+    backgroundImg:
+      "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/73/1410073-h-8efeeff63f64",
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/74/1410074-v-5059af32f099",
-    title: "",
-    subTitle: "",
-    description: "",
+    title: "The Santa Clauses",
+    subTitle: "Comedy - English - DisneyU/A 7+",
+    description:
+      "Scott Calvin struggles to keep up with the demands of being Santa Claus.",
+    type: "originals",
   },
   {
     id: "2J7S8F9H1H",
-    backgroundImg: "",
+    backgroundImg:
+      "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/474/1390474-h-3ab07c6782b8",
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/475/1390475-v-a2af892c12eb",
-    title: "",
-    subTitle: "",
-    description: "",
+    title: "Star Wars: Tales Of The Jedi",
+    subTitle: "Action - English - Star WarsU/A 7+",
+    description:
+      "A child goes through a rite of passage with unexpected results.",
+    type: "originals",
   },
   {
     id: "7N1C9X6B1V",
-    backgroundImg: "",
+    backgroundImg:
+      "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/7730/1327730-h-13a3bcb2711c",
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/7731/1327731-v-dd8222080752",
-    title: "",
-    subTitle: "",
-    description: "",
+    title: "Growing Up",
+    subTitle: "Documentary - English - DisneyU/A 13+",
+    description:
+      "Alex’s story dives into her experience dealing with depression in her middle and high school years.",
+    type: "originals",
   },
   {
     id: "9Q1E8F7Z1D",
-    backgroundImg: "",
+    backgroundImg:
+      "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/9962/1409962-h-c25ae6aa178a",
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/9963/1409963-v-e25de072dd0c",
-    title: "",
-    subTitle: "",
-    description: "",
+    title: "Zen - Grogu and Dust Bunnies",
+    subTitle: "Shorts - English - 2022U",
+    description:
+      "Zen – Grogu and Dust Bunnies is a hand drawn animated short by Studio Ghibli.",
+    type: "originals",
   },
   {
     id: "3M1J9T8L1K",
-    backgroundImg: "",
+    backgroundImg:
+      "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/4324/1404324-h-99edfa90363d",
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/4333/1404333-v-76b4f6eb09e0",
-    title: "",
-    subTitle: "",
-    description: "",
+    title: "Save Our Squad with David Beckham",
+    subTitle: "Documentary - English - DisneyU/A 7+",
+    description:
+      "David Beckham is coming home to mentor a team playing in the league where it all began for him.",
+    type: "originals",
   },
   {
     id: "8W1D7D9Z1B",
-    backgroundImg: "",
+    backgroundImg:
+      "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/6485/1396485-h-73e9b488e03e",
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/6487/1396487-v-d39440a9881d",
-    title: "",
-    subTitle: "",
-    description: "",
+    title: "The Mysterious Benedict Society",
+    subTitle: "Family - English - DisneyU/A 7+",
+    description:
+      "Four gifted orphans vie for a prestigious scholarship. The final result is stranger than imagined.",
+    type: "originals",
   },
   {
     id: "2Y1P9H7T1",
-    backgroundImg: "",
+    backgroundImg:
+      "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/1710/1401710-h-d5b5b38f351d",
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/1711/1401711-v-eb81b27c4686",
-    title: "",
-    subTitle: "",
-    description: "",
+    title: "Zootopia+",
+    subTitle: "Comedy - English - DisneyU/A 7+",
+    description: "Watch the new episode now.",
+    type: "originals",
   },
 ];
 
