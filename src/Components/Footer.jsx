@@ -102,7 +102,6 @@ export const Footer = () => {
               direction={isSmallerThan420 ? "column" : "row"}
             >
               <Image
-                h="50%"
                 src={"/images/google-play-badge-logo.svg"}
                 w={isSmallerThan420 ? "80px" : "120px"}
               />
