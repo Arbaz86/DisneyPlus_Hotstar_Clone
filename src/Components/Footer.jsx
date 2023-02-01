@@ -96,11 +96,7 @@ export const Footer = () => {
             <Text fontSize={isSmallerThan420 ? "10px" : "14px"}>
               Disney+ Hotstar App
             </Text>
-            <Flex
-              gap="10px"
-              mt="8px"
-              direction={isSmallerThan420 ? "column" : "row"}
-            >
+            <Flex gap="10px" mt="8px">
               <Image
                 src={"/images/google-play-badge-logo.svg"}
                 w={isSmallerThan420 ? "80px" : "120px"}
