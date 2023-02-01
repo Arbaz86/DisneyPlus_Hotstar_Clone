@@ -17,7 +17,7 @@ category selections, and many other features, and it's fully responsive to any d
 **`MOBILE VIEWES`**
 <br />
 
-![App Screenshot](./public/assets/readme/respomsive_on_mobile.)
+![App Screenshot](./public/readme/responsive_on_mobile.png)
 
 
 #### Demo
