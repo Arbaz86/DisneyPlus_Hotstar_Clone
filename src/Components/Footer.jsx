@@ -30,7 +30,7 @@ export const Footer = () => {
         gap="30px"
       >
         <Box w={isSmallerThan920 ? "100%" : "50%"}>
-          <Flex gap="16px" fontSize="14px">
+          <Flex gap="16px" fontSize={isSmallerThan420 ? "10px" : "14px"}>
             <Text cursor="pointer" _hover={{ color: "#1f80e0" }}>
               About Disney+ Hotstar
             </Text>
@@ -50,7 +50,11 @@ export const Footer = () => {
               Careers
             </Text>
           </Flex>
-          <Text mt="10px" fontSize="13px" color="#ffffffd7">
+          <Text
+            mt="10px"
+            fontSize={isSmallerThan420 ? "9px" : "13px"}
+            color="#ffffffd7"
+          >
             © 2023 STAR. All Rights Reserved. HBO, Home Box Office and all
             related channel and programming logos are service marks of, and all
             related programming visuals and elements are the property of, Home
@@ -64,28 +68,34 @@ export const Footer = () => {
           gap="20px"
         >
           <Box>
-            <Text>Connect with us</Text>
+            <Text fontSize={isSmallerThan420 ? "10px" : "14px"}>
+              Connect with us
+            </Text>
             <Flex gap="10px" mt="6px">
               <Button
                 p="0px"
                 _hover={{ bg: "#1f80e0" }}
                 _active={false}
                 bg="#1a1c27"
+                size={isSmallerThan420 ? "sm" : "md"}
               >
-                <ImFacebook fontSize="25px" />
+                <ImFacebook fontSize={isSmallerThan420 ? "16px" : "25px"} />
               </Button>
               <Button
                 p="0px"
                 _hover={{ bg: "#1f80e0" }}
                 _active={false}
                 bg="#1a1c27"
+                size={isSmallerThan420 ? "sm" : "md"}
               >
-                <ImTwitter fontSize="25px" />
+                <ImTwitter fontSize={isSmallerThan420 ? "16px" : "25px"} />
               </Button>
             </Flex>
           </Box>
           <Box>
-            <Text>Disney+ Hotstar App</Text>
+            <Text fontSize={isSmallerThan420 ? "10px" : "14px"}>
+              Disney+ Hotstar App
+            </Text>
             <Flex
               gap="10px"
               mt="8px"
@@ -94,9 +104,12 @@ export const Footer = () => {
               <Image
                 h="50%"
                 src={"/images/google-play-badge-logo.svg"}
-                w="120px"
+                w={isSmallerThan420 ? "80px" : "120px"}
               />
-              <Image src={"/images/app-store-apple-logo.svg"} w="120px" />
+              <Image
+                src={"/images/app-store-apple-logo.svg"}
+                w={isSmallerThan420 ? "80px" : "120px"}
+              />
             </Flex>
           </Box>
         </Flex>
