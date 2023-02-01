@@ -4,9 +4,9 @@
   <a href="#live-link">Live link</a>
 </p>
 
-# DisneyPlus_Hotstar_Clone
+# Disney+ Hotstar Clone
 
-A beautiful Clone of Disney+ website build with <a href="https://reactjs.org/" target="_blank">React js</a> and integrated with <a href="https://firebase.google.com/" target="_blank">Firebase</a>
+A beautiful Clone of Disney+ Hoststar website build with <a href="https://reactjs.org/" target="_blank">React js</a> and integrated with <a href="https://firebase.google.com/" target="_blank">Firebase</a>
 
 
 
@@ -20,6 +20,7 @@ A beautiful Clone of Disney+ website build with <a href="https://reactjs.org/" t
 
 **`DESKTOP VIEW`**
 
+![App Screenshot](./public/readme/responsive_on_desktop.png)
 
 **`MOBILE VIEWES`**
 <br />
