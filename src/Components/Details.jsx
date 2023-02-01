@@ -11,6 +11,7 @@ import {
 import React, { useEffect, useState } from "react";
 import { getLocalData } from "../Utils/localStorage";
 import { FaPlay } from "react-icons/fa";
+import { Footer } from "./Footer";
 
 export const Details = () => {
   const [isSmallerThan1020] = useMediaQuery("(max-width: 1020px)");
@@ -76,15 +77,20 @@ export const Details = () => {
               w="50%"
               bg="#030b17"
               pos="relative"
-              boxShadow={"61px 12px 100px 53px #030b17"}
+              shadow="40px 8px 50px 50px #030b17"
             ></Box>
           )}
           <Image
+            rounded="5px"
             src={movie.backgroundImg}
             h={isSmallerThan1020 ? "50vw" : "62vh"}
+            w={isSmallerThan1020 && "100%"}
           />
         </Flex>
       </Box>
+
+      {/* footer added */}
+      <Footer />
     </Box>
   );
 };
