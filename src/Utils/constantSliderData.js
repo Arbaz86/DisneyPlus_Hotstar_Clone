@@ -6,7 +6,7 @@ export const recommendedSliderData = [
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/8317/1328317-v-56412010beba",
     title: "Thor: Love and Thunder",
-    subTitle: "Action - English - 2022U/A 13+",
+    subTitle: "Action - English - 2022 - U/A 13+",
     description:
       "The God of Thunder teams up with King Valkyrie, Korg and ex-girlfriend-turned-Mighty-Thor Jane Foster to take on a galactic killer known as Gorr the God Butcher.",
     type: "recommended",
@@ -18,7 +18,7 @@ export const recommendedSliderData = [
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/5457/1455457-v-64cc7681c13d",
     title: "Jhanda Uncha Rahe Humara : The Tricolor",
-    subTitle: "Documentary - English - 2022 U",
+    subTitle: "Documentary - English - 2022 - U",
     description:
       "The film pays homage to our nation through the history, stories and emotions that the Tricolor evokes.",
     type: "recommended",
@@ -55,7 +55,7 @@ export const recommendedSliderData = [
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/9948/1279948-v-cc9471178e40",
     title: "Doctor Strange in the Multiverse of Madness",
-    subTitle: "Superhero - English - 2022U/A 13+",
+    subTitle: "Superhero - English - 2022 - U/A 13+",
     description:
       "When the Multiverse is unlocked, Doctor Strange must enlist help from old and new allies in order to confront a surprising adversary.",
     type: "recommended",
@@ -103,7 +103,7 @@ export const recommendedSliderData = [
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/1608/1161608-v-8fdb21cf9c1c",
     title: "Turning Red",
-    subTitle: "Family - English - 2022U/A 7+",
+    subTitle: "Family - English - 2022 - U/A 7+",
     description:
       "Mei Lee, a confident, dorky 13-year-old, tries to balance friends, family, the chaos of adolescence and an uncontrollable ability to poof into a giant red panda.",
     type: "recommended",
@@ -238,7 +238,7 @@ export const disneyOrigin = [
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/6462/1436462-v-e688776a6e16",
     title: "Encanto at the Hollywood Bowl",
-    subTitle: "Concert Film - English - 2022U/A 7+",
+    subTitle: "Concert Film - English - 2022 - U/A 7+",
     description:
       "The cast of 'Encanto' reunites for this concert experience celebrating the global phenomenon.",
     type: "originals",
@@ -262,7 +262,7 @@ export const disneyOrigin = [
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/9157/1429157-v-c0a5806446c1",
     title: "Night at the Museum: Kahmunrah Rises Again",
-    subTitle: "Adventure - English - 2022U/A 7+",
+    subTitle: "Adventure - English - 2022 - U/A 7+",
     description:
       "Nick Daley is the new night watchman at the American Museum of Natural History. When the maniacal ruler Kahmunrah escapes, it is up to Nick to save the museum once.",
     type: "originals",
@@ -274,7 +274,7 @@ export const disneyOrigin = [
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/6281/1426281-v-6566f5dae91c",
     title: "Weekend Family Christmas Special",
-    subTitle: "Comedy - French - 2022U/A 13+",
+    subTitle: "Comedy - French - 2022 - U/A 13+",
     description:
       "It’s Christmas, Fred’s favourite holiday! But he and Emma have very different ways of celebrating.",
     type: "originals",
@@ -286,7 +286,7 @@ export const disneyOrigin = [
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/1653/1431653-v-f6c5b91a3235",
     title: "Le Pupille",
-    subTitle: "Drama - Italian - 2022U/A 7+",
+    subTitle: "Drama - Italian - 2022 - U/A 7+",
     description:
       "A story of innocence, greed, and fantasy around a Christmas cake in a Catholic college for girls.",
     type: "originals",
@@ -310,7 +310,7 @@ export const disneyOrigin = [
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/3155/1423155-v-7635d4ee9b80",
     title: "Pentatonix: Around the World for the Holidays",
-    subTitle: "Concert Film - English - 2022U/A 7+",
+    subTitle: "Concert Film - English - 2022 - U/A 7+",
     description:
       "Pentatonix finds inspiration for their holiday album from fans around the world.",
     type: "originals",
@@ -322,7 +322,7 @@ export const disneyOrigin = [
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/2261/1422261-v-0e77e925ce97",
     title: "The Guardians of the Galaxy Holiday Special",
-    subTitle: "Action - English - 2022U/A 13+",
+    subTitle: "Action - English - 2022 - U/A 13+",
     description:
       "On a mission to make Christmas unforgettable for Quill, the Guardians head to Earth in search of the perfect present.",
     type: "originals",
@@ -334,7 +334,7 @@ export const disneyOrigin = [
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/3414/1413414-v-cdd2518d6ab1",
     title: "Disenchanted",
-    subTitle: "Family - English - 2022U/A 7+",
+    subTitle: "Family - English - 2022 - U/A 7+",
     description:
       "It's been fifteen years since Giselle and Robert wed, and a frustrated Giselle turns to the magic of Andalasia in hopes of finding her happily ever after.",
     type: "originals",
@@ -346,7 +346,7 @@ export const disneyOrigin = [
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/3047/1413047-v-c1ad3dd8ea81",
     title: "The Wonderful Autumn of Mickey Mouse",
-    subTitle: "Kids - English - 2022U/A 7+",
+    subTitle: "Kids - English - 2022 - U/A 7+",
     description:
       "Mickey Mouse is determined to undo the failures of his family's past after inheriting a rundown pumpkin farm from a distant relative",
     type: "originals",
@@ -358,7 +358,7 @@ export const disneyOrigin = [
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/2974/1412974-v-6b0c211e8292",
     title: "Mickey: The Story of a Mouse",
-    subTitle: "Documentary - English - 2022U/A 7+",
+    subTitle: "Documentary - English - 2022 - U/A 7+",
     description:
       "A look at Mickey's evolution into different versions that reflect his creator and society's changes.",
     type: "originals",
@@ -418,7 +418,7 @@ export const disneyOrigin = [
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/9963/1409963-v-e25de072dd0c",
     title: "Zen - Grogu and Dust Bunnies",
-    subTitle: "Shorts - English - 2022U",
+    subTitle: "Shorts - English - 2022 - U",
     description:
       "Zen – Grogu and Dust Bunnies is a hand drawn animated short by Studio Ghibli.",
     type: "originals",
@@ -487,24 +487,27 @@ export const twistInTheTale = [
   },
   {
     id: "4M1P1S9S5M",
-    backgroundImg: "",
+    backgroundImg:
+      "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/4668/674668-h",
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/4669/674669-v",
-    title: "",
-    subTitle: "",
-    description: "",
+    title: "Beauty And The Beast",
+    subTitle: "Romance - English - 2017 - U/A 7+",
+    description:
+      "Belle is taken prisoner by a beast in his castle. Despite her fears, she looks beyond the Beast's hideous exterior to realize the soul of the true Prince within.",
+
     type: "twistTale",
   },
   {
     id: "6B1D1Z9X7B",
     backgroundImg:
-      "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/4668/674668-h",
+      "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/8628/1048628-h-e57ea9013129",
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/8629/1048629-v-b32938d4d73e",
-    title: "Beauty And The Beast",
-    subTitle: "Romance - English - 2017 - U/A 7+",
+    title: "Cruella",
+    subTitle: "Crime - English - 2021 - U/A 7+",
     description:
-      "Belle is taken prisoner by a beast in his castle. Despite her fears, she looks beyond the Beast's hideous exterior to realize the soul of the true Prince within.",
+      "The film is about the rebellious early days of cinema's most notorious and fashionable villains, the legendary Cruella de Vil.",
     type: "twistTale",
   },
   {
@@ -950,7 +953,7 @@ export const latestOnDisney = [
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/1653/1431653-v-f6c5b91a3235",
     title: "Le Pupille",
-    subTitle: "Drama - Italian - 2022U/A 7+",
+    subTitle: "Drama - Italian - 2022 - U/A 7+",
     description:
       "A story of innocence, greed, and fantasy around a Christmas cake in a Catholic college for girls.",
     type: "latest",
@@ -962,7 +965,7 @@ export const latestOnDisney = [
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/6462/1436462-v-e688776a6e16",
     title: "Encanto at the Hollywood Bowl",
-    subTitle: "Concert Film - English - 2022U/A 7+",
+    subTitle: "Concert Film - English - 2022 - U/A 7+",
     description:
       "The cast of 'Encanto' reunites for this concert experience celebrating the global phenomenon.",
     type: "latest",
@@ -986,7 +989,7 @@ export const latestOnDisney = [
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/6281/1426281-v-6566f5dae91c",
     title: "Weekend Family Christmas Special",
-    subTitle: "Comedy - French - 2022U/A 13+",
+    subTitle: "Comedy - French - 2022 - U/A 13+",
     description:
       "It’s Christmas, Fred’s favourite holiday! But he and Emma have very different ways of celebrating.",
     type: "latest",
@@ -998,7 +1001,7 @@ export const latestOnDisney = [
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/9297/1429297-v-12e287b535ec",
     title: "National Treasure: Edge of History",
-    subTitle: "Action - English - DisneyU/A 13+",
+    subTitle: "Action - English - Disney - U/A 13+",
     description:
       "After meeting a stranger, Jess learns the father she never knew may have been a treasure hunter.",
     type: "latest",
@@ -1022,7 +1025,7 @@ export const latestOnDisney = [
     cardImg:
       "https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/9157/1429157-v-c0a5806446c1",
     title: "Night at the Museum: Kahmunrah Rises Again",
-    subTitle: "Adventure - English - 2022U/A 7+",
+    subTitle: "Adventure - English - 2022 - U/A 7+",
     description:
       "Nick Daley is the new night watchman at the American Museum of Natural History. When the maniacal ruler Kahmunrah escapes, it is up to Nick to save the museum once.",
     type: "latest",

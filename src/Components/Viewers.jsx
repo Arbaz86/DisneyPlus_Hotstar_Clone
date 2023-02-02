@@ -5,27 +5,27 @@ import styled from "styled-components";
 let viewerData = [
   {
     imgUrl: "/images/viewers-disney.png",
-    videoSrc: "/videos/1564674844-disney.mp4",
+    videoSrc: "/videos/disney.mp4",
     name: "disney",
   },
   {
     imgUrl: "/images/viewers-pixar.png",
-    videoSrc: "/videos/1564676714-pixar.mp4",
+    videoSrc: "/videos/pixar.mp4",
     name: "pixar",
   },
   {
     imgUrl: "/images/viewers-marvel.png",
-    videoSrc: "/videos/1564676115-marvel.mp4",
+    videoSrc: "/videos/marvel.mp4",
     name: "marvel",
   },
   {
     imgUrl: "/images/viewers-starwars.png",
-    videoSrc: "/videos/1608229455-star-wars.mp4",
+    videoSrc: "/videos/star-wars.mp4",
     name: "starwars",
   },
   {
     imgUrl: "/images/viewers-national.png",
-    videoSrc: "/videos/1564676296-national-geographic.mp4",
+    videoSrc: "/videos/national-geographic.mp4",
     name: "national",
   },
 ];
