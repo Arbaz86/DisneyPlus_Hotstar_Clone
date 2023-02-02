@@ -12,7 +12,7 @@ A beautiful Clone of Disney+ Hoststar website build with <a href="https://reactj
 
 ### Tech Stack
 
-`HTML` `CSS` `JavaScript` `React` `Chakra UI` `Firebase`
+`HTML` `CSS` `JavaScript` `React` `Redux` `Chakra UI` `Firebase`
 
 
 
