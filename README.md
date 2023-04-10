@@ -6,8 +6,7 @@
 
 # Disney+ Hotstar Clone
 
-A beautiful Clone of Disney+ Hoststar website build with <a href="https://reactjs.org/" target="_blank">React js</a> and integrated with <a href="https://firebase.google.com/" target="_blank">Firebase</a>
-
+<p align="center">This Disney+ Hotstar Clone project is a visually stunning website replica built using React JS and integrated with Firebase. As a solo project completed in just 5 days, I was responsible for developing the Google Sign-in/Sign-up feature, creating private routes for the site, and designing the overall look and feel. The site is also fully responsive and can adapt to all devices seamlessly. The Tech Stack used for this project includes <strong><i> HTML, CSS, JavaScript, React, Redux, Chakra UI, and Firebase.</i></strong> This project allowed me to hone my skills in front-end web development and gain hands-on experience with popular tech tools and platforms.</p>
 
 
 ### Tech Stack
