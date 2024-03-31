@@ -62,7 +62,6 @@ const Carousel = styled(Slider)`
   .slick-list {
     overflow: initial;
   }
-
   .slick-prev {
     left: -65px;
   }

@@ -1,8 +1,15 @@
 import { Box, VStack, Flex, Image, Button, Text } from "@chakra-ui/react";
 import React from "react";
-import { Link } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { loginUser } from "../Redux/AuthReducer/action";
 
 export const Login = () => {
+  const dispatch = useDispatch();
+
+  const handleAuth = () => {
+    dispatch(loginUser());
+  };
+
   return (
     <VStack overflow="hidden" textAlign="center" height="100vh">
       {/* mid content */}
@@ -16,6 +23,7 @@ export const Login = () => {
         mb="10vw"
         p="80px 40px"
         h="100%"
+        zIndex="1"
       >
         <Box
           h="100%"
@@ -54,18 +62,15 @@ export const Login = () => {
             />
             <Button
               fontWeight="bold"
-              color="#f9f9f9"
-              bg="#0063e5"
+              colorScheme="blue"
               mb="12px"
               w="100%"
-              _hover={{ bg: "#0483ee" }}
               fontSize="22px"
-              cursor="pointer"
               letterSpacing="1.5px"
               p="1.3em 0px"
-              radius="4px"
+              onClick={handleAuth}
             >
-              <Link to="">GET ALL THERE</Link>
+              GET ALL THERE
             </Button>
             <Text
               fontSize="14px"

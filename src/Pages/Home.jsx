@@ -1,9 +1,9 @@
 import { Box } from "@chakra-ui/react";
 import React from "react";
-import { Footer } from "./Footer";
-import { ImgSlider } from "./ImgSlider";
-import { Sliders } from "./Sliders";
-import { Viewers } from "./Viewers";
+import { Footer } from "../Components/Footer";
+import { ImgSlider } from "../Components/ImgSlider";
+import { Sliders } from "../Components/Sliders";
+import { Viewers } from "../Components/Viewers";
 
 export const Home = () => {
   return (

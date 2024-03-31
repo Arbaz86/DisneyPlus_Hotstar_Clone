@@ -1,9 +1,9 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import { Details } from "./Details";
-import { Home } from "./Home";
-import { Login } from "./Login";
 import { PrivateRoutes } from "./PrivateRoutes";
+import { Login } from "../Pages/Login";
+import { Home } from "../Pages/Home";
+import { Details } from "../Pages/Details";
 
 export const AllRoutes = () => {
   return (
